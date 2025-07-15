@@ -10,7 +10,8 @@ function custom_contract_form_styles() {
             array(),
             $version,
             'all'
-        );
+        ); 
+        // flaptckr
         wp_enqueue_style('flatpickr-css', 'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css');
 
         // Enqueue Flatpickr JS
