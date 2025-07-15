@@ -11,6 +11,7 @@ function custom_contract_form_styles() {
             $version,
             'all'
         );
+        //flatpickr
         wp_enqueue_style('flatpickr-css', 'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css');
 
         // Enqueue Flatpickr JS
